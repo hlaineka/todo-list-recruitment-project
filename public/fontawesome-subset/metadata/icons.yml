@@ -1,0 +1,180 @@
+books:
+  changes:
+    - 5.2.0
+    - 5.10.1
+  label: Books
+  search:
+    terms:
+      - diary
+      - documentation
+      - journal
+      - library
+      - read
+  styles:
+    - duotone
+  unicode: f5db
+  voted: false
+coffee-pot:
+  changes:
+    - 5.12.0
+    - 5.14.0
+  label: Coffee Pot
+  search:
+    terms:
+      - beverage
+      - breakfast
+      - brew
+      - cafe
+      - carafe
+      - drink
+      - morning
+  styles:
+    - duotone
+  unicode: e002
+  voted: false
+lightbulb:
+  changes:
+    - '3'
+    - 5.0.0
+    - 5.3.0
+  label: Lightbulb
+  search:
+    terms:
+      - energy
+      - idea
+      - inspiration
+      - light
+  styles:
+    - duotone
+  unicode: f0eb
+  voted: false
+pizza:
+  changes:
+    - 5.7.0
+  label: Pizza
+  search:
+    terms:
+      - cheese
+      - chicago
+      - italian
+      - mozzarella
+      - new york
+      - pepperoni
+      - pie
+      - slice
+      - teenage mutant ninja turtles
+      - tomato
+  styles:
+    - duotone
+  unicode: f817
+  voted: false
+shower:
+  changes:
+    - '4.7'
+    - 5.0.0
+    - 5.12.0
+  label: Shower
+  search:
+    terms:
+      - bath
+      - clean
+      - faucet
+      - water
+  styles:
+    - duotone
+  unicode: f2cc
+  voted: false
+snooze:
+  changes:
+    - 5.9.0
+  label: Snooze
+  search:
+    terms:
+      - alarm
+      - nap
+      - rest
+      - siesta
+      - sleep
+  styles:
+    - duotone
+  unicode: f880
+  voted: true
+speakers:
+  changes:
+    - 5.11.0
+  label: Speakers
+  search:
+    terms:
+      - audio
+      - device
+      - group
+      - music
+      - sound
+      - subwoofer
+      - transducer
+      - tweeter
+  styles:
+    - duotone
+  unicode: f8e0
+  voted: false
+spinner-third:
+  changes:
+    - 5.0.0
+    - 5.10.2
+  label: Spinner Third
+  search:
+    terms:
+      - circle
+      - loading
+      - progress
+  styles:
+    - duotone
+  unicode: f3f4
+  voted: false
+umbrella-beach:
+  changes:
+    - 5.1.0
+  label: Umbrella Beach
+  search:
+    terms:
+      - protection
+      - recreation
+      - sand
+      - shade
+      - summer
+      - sun
+  styles:
+    - duotone
+  unicode: f5ca
+  voted: false
+vacuum:
+  changes:
+    - 5.12.0
+    - 5.14.0
+  label: Vacuum
+  search:
+    terms:
+      - cleaning
+      - dyson
+      - floor
+      - suck
+      - suction
+  styles:
+    - duotone
+  unicode: e04d
+  voted: false
+washer:
+  changes:
+    - 5.9.0
+  label: Washer
+  search:
+    terms:
+      - clean
+      - clothes
+      - laundromat
+      - laundry
+      - washing machine
+  styles:
+    - duotone
+  unicode: f898
+  voted: true

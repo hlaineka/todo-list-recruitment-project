@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true // support modern browsers only
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
