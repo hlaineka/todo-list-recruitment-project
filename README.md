@@ -33,6 +33,9 @@ Your task is to create simple todo list app.
 <i class="fad fa-spinner-third fa-spin fa-fw"></i>
 ```
 
+End result should look somehting like this. Theme is presetted in `main.css`
+![Design](TodoDesign.png)
+
 ## Mock API
 
 Below is documentation for our Promise -based mock API. All reponses have `Content-Type: application/json` Create new instance of mock API:
