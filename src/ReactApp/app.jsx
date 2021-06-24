@@ -1,17 +1,20 @@
 import React, { useEffect, useState } from 'react'
+import uuid from 'react-uuid'
+import PropTypes from 'prop-types'
 import MockApi from '../MockApi'
-import PropTypes from 'prop-types';
-
+import '../main.css'
 
 const api = new MockApi();
 
-const Todo = ({todo}) => (
+const Todo = ({todo}) => {
+  console.log(todo.icon)
+  return(
   <li>
     <i className={todo.icon}/>
     <div>{todo.task}</div>
     <div>{todo.description}</div>
   </li>
-)
+)}
 
 Todo.propTypes = {
   todo: PropTypes.shape({
@@ -32,10 +35,10 @@ const App = () =>  {
     .then(initialTodos => {
       setTodos(initialTodos)
     })
-  })
+  }, [])
   return (
   <ul>
-    {todos.map((todo) => <Todo todo={todo}/>)}
+    {todos.map((todo) => <Todo key={uuid()} todo={todo}/>)}
   </ul>
 )}
 
